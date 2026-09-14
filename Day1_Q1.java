@@ -1,3 +1,4 @@
+package Day1;
 // Q1 (User Inputs, Operations & Output)
 // Write a program to input two numbers and display their sum.
 
