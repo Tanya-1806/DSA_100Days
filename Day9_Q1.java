@@ -1,0 +1,30 @@
+// Q17 (Conditional Statements)
+// Write a program to find the roots of a quadratic equation and categorize them.
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter coefficients a, b and c of the quadratic equation (ax^2 + bx + c = 0):");
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+
+        double discriminant = b * b - 4 * a * c;
+
+        if (discriminant > 0) {
+            double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+            double root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+            System.out.println("The roots are real and different.");
+            System.out.println("Root 1: " + root1);
+            System.out.println("Root 2: " + root2);
+        } else if (discriminant == 0) {
+            double root = -b / (2 * a);
+            System.out.println("The roots are real and the same.");
+            System.out.println("Root: " + root);
+        } else {
+            System.out.println("The roots are complex and different.");
+        }
+    }
+}
