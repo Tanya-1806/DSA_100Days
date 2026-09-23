@@ -1,6 +1,4 @@
-package Day2;
-// Q4 (User Inputs, Operations & Output)
-// Write a program to calculate the area and circumference of a circle given its radius.
+
 
 import java.util.*;
 
