@@ -5,7 +5,7 @@
 // Next 100 units at ₹10/unit 
 // Above at ₹12/unit
 
-import java.util.Scanner;   
+import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
