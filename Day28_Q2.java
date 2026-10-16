@@ -19,5 +19,6 @@ class Main {
         }
 
         sc.close();
+        
     }
 }   
